@@ -1,0 +1,14 @@
+# .NET build output
+bin/
+obj/
+
+# published/standalone builds (large binaries — rebuild with `dotnet publish`, or attach to a GitHub Release instead)
+dist/
+
+# editor/IDE
+.vs/
+*.user
+
+# local runtime state (this actually lives in %APPDATA%\DockDX, listed here only for safety)
+state.json
+error.log
